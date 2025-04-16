@@ -13,7 +13,6 @@ def temperature(camera):
     camera.DeviceTemperatureSelector.Value = "Sensor"
     return camera.DeviceTemperature.Value
 
-
     # Get the current temperature state
     e = camera.TemperatureState.Value
     # Get the maximum temperature the camera reached during operation
